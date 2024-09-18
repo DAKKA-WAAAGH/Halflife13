@@ -232,7 +232,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/patron = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/rum
-	name = "City Administrator Pete's Cuban spiced rum"
+	name = "District Administrator Pete's Cuban spiced rum"
 	desc = "This isn't just rum, oh no. It's practically GRIFF in a bottle."
 	icon_state = "rumbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/rum = 100)
@@ -347,8 +347,8 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/hcider = 50)
 
 /obj/item/reagent_containers/food/drinks/bottle/grappa
-	name = "Phillipes well-aged Grappa"
-	desc = "Bottle of Grappa."
+	name = "Well-aged Grappa"
+	desc = "A preserved old world bottle of aged Grappa. This will surely taste amazing."
 	icon_state = "grappabottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/grappa = 100)
 

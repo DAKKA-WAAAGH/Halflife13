@@ -7,7 +7,7 @@
 	faction = "Station"
 	total_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	spawn_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
-	supervisors = "the Divisional Lead and City Administrator"
+	supervisors = "the Divisional Lead and District Administrator"
 	minimal_player_age = 7
 	exp_requirements = 0
 	exp_type = EXP_TYPE_CREW
@@ -15,7 +15,7 @@
 	outfit = /datum/outfit/job/officer
 
 	added_access = list(ACCESS_MAINT_TUNNELS, ACCESS_MORGUE, ACCESS_DETECTIVE, ACCESS_BRIG_PHYS)
-	base_access = list(ACCESS_SECURITY, ACCESS_SEC_BASIC, ACCESS_BRIG, ACCESS_WEAPONS_PERMIT,
+	base_access = list(ACCESS_SECURITY, ACCESS_SEC_BASIC, ACCESS_BRIG, ACCESS_WEAPONS_PERMIT, ACCESS_MEDICAL,
 					ACCESS_EXTERNAL_AIRLOCKS, ACCESS_MECH_SECURITY) // See /datum/job/officer/get_access()
 
 	paycheck = PAYCHECK_HARD
