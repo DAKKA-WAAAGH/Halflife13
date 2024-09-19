@@ -15,6 +15,8 @@
 	exp_type = EXP_TYPE_CREW
 	exp_type_department = EXP_TYPE_SECURITY
 
+	cmode_music = 'sound/music/combat/apprehensionandevasion.ogg'
+
 	outfit = /datum/outfit/job/hos
 	mind_traits = list(TRAIT_LAW_ENFORCEMENT_METABOLISM)
 
@@ -56,7 +58,6 @@
 	name = "Divisional Lead"
 	jobtype = /datum/job/hos
 
-	id_type = /obj/item/card/id/silver
 
 	ears = /obj/item/radio/headset/civilprotection/divisional
 	uniform = /obj/item/clothing/under/combine/civilprotection/divisionallead
